@@ -1,6 +1,6 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VodChamp.Backend.WebhookReceiver", "VodChamp.Backend.WebhookReceiver\VodChamp.Backend.WebhookReceiver.csproj", "{798E59AB-EF3D-4385-9D48-2E2F0DBD1740}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VodChamp.Backend.WebhookReceiver", "src\VodChamp.Backend.WebhookReceiver\VodChamp.Backend.WebhookReceiver.csproj", "{798E59AB-EF3D-4385-9D48-2E2F0DBD1740}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ED29C19A-3232-40B2-92BA-E5B9156C3390}"
 ProjectSection(SolutionItems) = preProject
