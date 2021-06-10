@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 namespace VodChamp.Backend.WebhookReceiver.Controllers
@@ -15,9 +15,6 @@ namespace VodChamp.Backend.WebhookReceiver.Controllers
         }
 
         [HttpGet]
-        public ActionResult Get()
-        {
-            return Ok();
-        }
+        public ActionResult Receive() => Ok();
     }
 }
