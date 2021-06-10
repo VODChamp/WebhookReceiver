@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VodChamp.Backend.WebhookReceiver", "src\VodChamp.Backend.WebhookReceiver\VodChamp.Backend.WebhookReceiver.csproj", "{798E59AB-EF3D-4385-9D48-2E2F0DBD1740}"
 EndProject
@@ -8,6 +8,10 @@ ProjectSection(SolutionItems) = preProject
 	LICENSE = LICENSE
 	.gitignore = .gitignore
 EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6B23C155-1690-4168-B672-360090331F2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VodChamp.Common", "src\VodChamp.Common\VodChamp.Common.csproj", "{D173BD9B-7C24-468D-85C6-F4B0BF407EAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,5 +23,12 @@ Global
 		{798E59AB-EF3D-4385-9D48-2E2F0DBD1740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{798E59AB-EF3D-4385-9D48-2E2F0DBD1740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{798E59AB-EF3D-4385-9D48-2E2F0DBD1740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D173BD9B-7C24-468D-85C6-F4B0BF407EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D173BD9B-7C24-468D-85C6-F4B0BF407EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D173BD9B-7C24-468D-85C6-F4B0BF407EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D173BD9B-7C24-468D-85C6-F4B0BF407EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D173BD9B-7C24-468D-85C6-F4B0BF407EAF} = {6B23C155-1690-4168-B672-360090331F2F}
 	EndGlobalSection
 EndGlobal
