@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 namespace VodChamp.Backend.WebhookReceiver.Controllers
@@ -14,7 +14,7 @@ namespace VodChamp.Backend.WebhookReceiver.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpPost]
         public ActionResult Receive() => Ok();
     }
 }
