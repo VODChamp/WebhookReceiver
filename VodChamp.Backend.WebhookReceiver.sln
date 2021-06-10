@@ -11,7 +11,7 @@ EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6B23C155-1690-4168-B672-360090331F2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VodChamp.Common", "src\VodChamp.Common\VodChamp.Common.csproj", "{D173BD9B-7C24-468D-85C6-F4B0BF407EAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VodChamp.Backend.WebhookReceiver.Common", "src\VodChamp.Backend.WebhookReceiver.Common\VodChamp.Backend.WebhookReceiver.Common.csproj", "{D173BD9B-7C24-468D-85C6-F4B0BF407EAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
