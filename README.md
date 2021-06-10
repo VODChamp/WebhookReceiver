@@ -13,4 +13,3 @@ This project handles the incoming webhook payloads from Twitch.
 ## License
 
 See LICENSE
-
