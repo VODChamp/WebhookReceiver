@@ -5,11 +5,11 @@ namespace VodChamp.Backend.WebhookReceiver.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class BasicController : ControllerBase
+    public class WebhookController : ControllerBase
     {
-        private readonly ILogger<BasicController> _logger;
+        private readonly ILogger<WebhookController> _logger;
 
-        public BasicController(ILogger<BasicController> logger)
+        public WebhookController(ILogger<WebhookController> logger)
         {
             _logger = logger;
         }
